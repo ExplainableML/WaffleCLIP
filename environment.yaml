@@ -1,0 +1,21 @@
+name: waffle
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - cudatoolkit=11.3
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - numpy=1.23.1
+  - scipy=1.10.0
+  - tqdm
+  - pip:
+    - webdataset==0.2.5
+    - torchmetrics==0.6.0
+    - matplotlib
+    - termcolor
+    - git+https://github.com/openai/CLIP.git
+    - git+https://github.com/modestyachts/ImageNetV2_pytorch
+    - -e .
