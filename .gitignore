@@ -1,0 +1,4 @@
+*.pyc
+__pycache__
+precomputed_encs
+waffle.egg-info
