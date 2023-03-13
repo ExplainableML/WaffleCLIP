@@ -122,15 +122,6 @@ for rep in range(opt.reps):
 
     description_encodings = waffle_tools.compute_description_encodings(opt, model, mode=opt.mode)
 
-    import utils
-    for key in tqdm.tqdm(description_encodings.keys(), desc='vMF-Sampling...'):
-        mean = description_encodings[key]
-        scale = torch.Tensor([opt.vmf_scale]).reshape(1, 1).to(device)
-        vmf = utils.VonMisesFisher(mean.to(torch.float32), scale)
-        samples = vmf.sample(shape=opt.waffle_count * 2).squeeze(1).to(torch.float16)
-        avg_sim = torch.mean(mean @ samples.T)
-        description_encodings[key] = samples
-
     description_nums = [len(x) for x in description_encodings.values()]
     print(f'Minimum and Maximum number of descriptions/class: {np.min(description_nums)} | {np.max(description_nums)}')
 
