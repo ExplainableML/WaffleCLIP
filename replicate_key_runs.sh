@@ -269,9 +269,6 @@ python base_main.py --savename='scrambled_descriptions' --dataset=dtd --mode=scr
 
 
 
-
-
-python base_main.py --dataset=food101 --mode=waffle --waffle_count=15 --reps=7 --model_size=ViT-B/32
 ########################################################## Method
 
 ######## WaffleCLIP
