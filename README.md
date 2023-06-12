@@ -1,4 +1,4 @@
-# WWaffleCLIP [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+# WaffleCLIP [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 __Authors:__ [Karsten Roth](https://karroth.com/), [Jae Myung Kim](https://jaemyung-kim.github.io/), [Almut Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke), [Oriol Vinyals](https://scholar.google.com/citations?user=NkzyCvUAAAAJ&hl=en), [Cordelia Schmid](https://scholar.google.com/citations?user=IvqCXP4AAAAJ&hl=en), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)
 
