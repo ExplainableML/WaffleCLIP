@@ -26,7 +26,7 @@ __Authors:__ [Karsten Roth](https://karroth.com/), [Jae Myung Kim](https://jaemy
 
 <!-- <img align="left" style="padding: 0px 20px 0px 0px;"  width="400" padding="100" src=images/teaser.png> -->
 
-This repository contains code to replicate key experiments from our paper [Waffling around for Performance: Visual Classification with Random Words and Broad Concepts]().
+This repository contains code to replicate key experiments from our paper [Waffling around for Performance: Visual Classification with Random Words and Broad Concepts](https://arxiv.org/abs/2306.07282).
 It should also provide a good starting point for any subsequent research looking to study improved (zero-shot) transfer performance of pretrained Vision Language Models (VLM), and extends the [great repository](https://github.com/sachit-menon/classify_by_description_release) associated with the original [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183) paper.
 
 If you find this repository useful or use it as part of your research, please consider [citing it](#citation).
@@ -151,5 +151,12 @@ For additional CLIP uses, we have also included
 ## Citation
 
 ```bibtex
-TBD
+@misc{roth2023waffling,
+      title={Waffling around for Performance: Visual Classification with Random Words and Broad Concepts}, 
+      author={Karsten Roth and Jae Myung Kim and A. Sophia Koepke and Oriol Vinyals and Cordelia Schmid and Zeynep Akata},
+      year={2023},
+      eprint={2306.07282},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
